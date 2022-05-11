@@ -1,0 +1,17 @@
+.treeview-root {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.folder {
+  display: block;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}

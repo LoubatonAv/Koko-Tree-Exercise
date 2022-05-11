@@ -1,0 +1,31 @@
+.searchbar-container {
+  background-color: rgb(232, 232, 232);
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.input-button-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 30px;
+}
+
+button {
+  width: 100px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+input {
+  width: 250px;
+  position: relative;
+}
+
+.magnifying {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 70px;
+}
